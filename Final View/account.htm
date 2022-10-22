@@ -1,0 +1,55 @@
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Account
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="index.css" >
+    <script src="../register/register.js"></script>
+</head>
+
+<body>
+<div class='container'>    
+<div class='main'>
+    <div class='tabs'>
+        <a href="index.php">Home</a>
+        <a href="player.php">PlayArea</a>
+        <a href="account.php">Account</a>
+        <a href="logout.php">Logout</a>
+    </div>
+    <div class='accounts'>
+       <p>Edit your account: </p> 
+        <hr>
+        
+        <div class='accountupdate'>
+        <form action="update.php" method="post" name="registration_form" onsubmit="return validateform()">
+                    <label for="username"><b>Username:</b></label><br>
+                    <input type="text" placeholder="" name="username" required>
+
+                    <br>
+
+                    <label for="teamname"><b>Team Name:</b></label><br>
+                    <input type="text" placeholder="" name="teamname" required>
+                    
+                    <br>
+
+                    <label for="password"><b>Password:</b></label><br>
+                    <input type="password" placeholder="Enter Password" name="password" required>
+                    <br>
+
+                    <label for="repassword"><b>Repeat Password:</b></label><br>
+                    <input type="password" placeholder="Repeat Password" name="repassword" required>
+                    <br>
+
+                    <div class="clearfix">
+                      <button type="submit" class="signupbtn" name="submit_register">Update</button>
+                    </div>
+                  </div>
+                </form>    
+    </div>
+</div>
+</div>
+</body>
+</html>
