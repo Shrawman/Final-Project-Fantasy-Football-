@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+li,a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    
+}
+.logo{
+    cursor: pointer;
+    width: 20%;
+    position: absolute;
+    top: 5px;
+    left: 16px;
+}
+nav ul{
+    list-style: none;
+    position: absolute;
+    top: 9%;
+    right: 10%;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+nav ul li a{
+    transition: all .3 ease 0s;
+}
+nav ul li a:hover{
+    color:rgb(59, 59, 255);
+}
+.border{
+    width: 100%;
+    padding: 2px;
+    position: absolute;
+    top: 15%;
+    background: rgb(59, 59, 255);
+    text-align: center;
+    border-radius: 10%;
+}
+
+.container2{
+    position: relative;
+    display: flex;
+    flex-basis: 40%;
+    align-items: center;
+    padding-left: 15rem;
+    padding-right: 7rem;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.boy{
+        width: 55%;
+        height: 50%;
+}
+.box{
+    width: 350px;
+    padding: 30px;
+    position: absolute;
+    top: 45%;
+    left: 75%;
+    transform: translate(-40%,-40%);
+    background: rgba(0, 0, 0, .2);
+    text-align: center;
+    border-radius: 10%;
+}
+.box h1{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box input[type="text"],.box input[type="password"]
+{
+    border: 0;
+    background:none ;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(59, 59, 255);
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: all .3s ease 0s;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus
+{
+    width: 270px;
+    border-color: white;
+    transition: all .3s ease 0s;
+    
+}
+.box input[type="submit"]
+{
+    border: 0;
+    background:none ;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(59, 59, 255);
+    padding: 14px 35px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: all .3s ease 0s;
+    cursor: pointer;
+}
+.box input[type="submit"]:hover{
+    background: rgb(59, 59, 255);
+}
+.login a{
+    text-decoration:none ;
+    font-size: 12px;
+    line-height: 20px;
+}
+.login a:hover{
+    color: rgb(59, 59, 255);
+    transition: all .3s ease;
+}
+.already-account{
+    font-style: bold;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.cookies{
+    position: fixed;
+    bottom: -100;
+    left: 0;
+    right: 0;
+    background: rgb(59, 59, 255);
+    color: white;
+    padding: 15px 40px;
+    transition: all .3s ease 0s;
+}
+.cookies.active{
+    bottom: 0;
+    transition: all .3s ease 0s;
+}
+.cookies a{
+    color: white;
+    text-decoration: underline;
+    font-size: 16px;
+}
+.cookie{
+    background: white;
+    border: 0;
+    color: rgb(59, 59, 255);
+    font-size: 16px;
+    padding: 8px 40px;
+    border-radius: 8px;
+}
+.cookie:hover{
+    background: black;
+    border: 3px;
+    cursor: pointer;
+    transition: all .3s ease 0s;
+}
