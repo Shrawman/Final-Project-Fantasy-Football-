@@ -20,6 +20,8 @@ li,a{
 }
 
 
+
+
 .logo{
     cursor: pointer;
     width: 20%;
@@ -33,6 +35,8 @@ nav ul{
     top: 9%;
     right: 10%;
 }
+
+
 nav ul li{
     display: inline-block;
     padding: 0px 20px;
@@ -43,6 +47,8 @@ nav ul li a{
 nav ul li a:hover{
     color:rgb(59, 59, 255);
 }
+
+
 .border{
     width: 100%;
     padding: 2px;
@@ -63,6 +69,8 @@ nav ul li a:hover{
     justify-content: space-between;
     margin: 10px 0;
 }
+
+
 .boy{
         width: 45%;
         height: 50%;
