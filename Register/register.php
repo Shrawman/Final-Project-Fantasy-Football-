@@ -89,6 +89,7 @@ $password = $_POST['password'];
         </div>
 
     </Div>
+ 
     <script src=register.js></script>
 </body>
 </html>
