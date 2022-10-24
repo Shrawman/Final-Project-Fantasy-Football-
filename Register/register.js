@@ -20,6 +20,9 @@ function validateform(){
     if(password != pasrepeat){
         alert("Both passwords does not match");
         return false;
+        
+        
+        
     }
 }
 
